@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class handsofdoom : MonoBehaviour
 {
-    void Update()
+    private void FixedUpdate()
     {
-        transform.Rotate(0.2f, 0, 0 * Time.deltaTime);
+        transform.Rotate(-1, 0, 0 * Time.fixedDeltaTime);
     }
 }

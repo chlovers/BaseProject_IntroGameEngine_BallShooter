@@ -7,8 +7,8 @@ public class cuprotate : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        transform.Rotate(0, 0, .02f * Time.deltaTime);
+        transform.Rotate(0,0 , 1 * Time.fixedDeltaTime);
     }
 }

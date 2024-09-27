@@ -7,8 +7,8 @@ public class levelfivespin : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        transform.Rotate(0, 0.1f , 0 * Time.deltaTime);
+        transform.Rotate(0, 1, 0 * Time.fixedDeltaTime);
     }
 }

@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class spin : MonoBehaviour
 {
-   
+
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        transform.Rotate(0, .02f , 0 * Time.deltaTime);
+        transform.Rotate(0, 1 , 0 * Time.fixedDeltaTime);
     }
+   
 }
