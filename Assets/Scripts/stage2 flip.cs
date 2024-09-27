@@ -7,6 +7,6 @@ public class stage2flip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(-0.2f, 0, 0 * Time.deltaTime);
+        transform.Rotate(-0.08f, 0, 0 * Time.deltaTime);
     }
 }
