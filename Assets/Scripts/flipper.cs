@@ -9,6 +9,6 @@ public class flipper : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        transform.Rotate(-1, 0, 0 * Time.fixedDeltaTime);
+        transform.Rotate(-2f, 0, 0 * Time.fixedDeltaTime);
     }
 }
